@@ -1,6 +1,8 @@
 def my_each # put argument(s) here
   # code here
-  if 
+  if file?
+    i = [1, 2, 3, 4]
+  while i < file.length 
 end
 
 

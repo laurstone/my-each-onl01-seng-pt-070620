@@ -1,4 +1,4 @@
-def my_each # put argument(s) here
+def my_each(words) # put argument(s) here
   # code here
   if file?
     i = [1, 2, 3, 4]
@@ -6,8 +6,9 @@ def my_each # put argument(s) here
     yield(file[i])
     i = i + 1 
 end
-
-
+  words
+else 
+  puts ""
 
 
 

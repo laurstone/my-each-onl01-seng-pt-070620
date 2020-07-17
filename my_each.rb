@@ -8,6 +8,6 @@ def my_each(words) # put argument(s) here
 end
   words
 else 
-  puts "This block should not run!"
+  return "This block should not run!"
 end 
 end 

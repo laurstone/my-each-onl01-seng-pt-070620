@@ -1,23 +1,8 @@
-def my_each(words) # put argument(s) here
-
-  if file?
-    i = [1, 2, 3, 4]
-  while i < file.length 
-    yield(file[i])
-    i = i + 1 
-end
-  words
-else 
-  return "This block should not run!"
-end 
-end 
-
-
-def my_each(arr) 
+def my_each(array) # put argument(s) here
   counter = 0 
-  while counter < arr.length 
-  yield (arr[counter])
-  counter += 1
-  end
-  arr
+  while counter < array.length 
+    yield(array[counter])
+    counter += 1 
 end
+ array
+end 
